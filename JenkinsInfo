@@ -15,5 +15,6 @@ Pipeline
 MultiBranch Job
 
 Simple Job -> last build kept, discard old build, custom workspace, create directory
-create user and give some permission only
+create user and give some permission only -> .jenkins/user/username
+signup option visible on login jenkin page
 
