@@ -1,0 +1,19 @@
+Install Jenkin as a war
+
+Install Java
+Install Apache Tomcat, Give Permission
+ - Under webapps, install the jenkins war file
+ - unzip zip file
+ - under bin, start the apache tomcat.
+On browser, run the
+ - publicip:8080/jenkins
+ - put the password, password saved in /.jenkins/secrets/initialPassword
+ - Jenkins Launched.
+
+Freestyle Job
+Pipeline
+MultiBranch Job
+
+Simple Job -> last build kept, discard old build, custom workspace, create directory
+create user and give some permission only
+
