@@ -1987,3 +1987,127 @@
 22-Jul-2023 04:44:29.407 INFO [Handling POST /jenkins/github-webhook/ from 140.82.115.117 : http-nio-8080-exec-6] org.jenkinsci.plugins.github.webhook.subscriber.DefaultPushGHEventSubscriber.onEvent Received PushEvent for https://github.com/ShivanidMore/simple-java-maven-app from 140.82.115.117 ⇒ http://54.196.93.169:8080/jenkins/github-webhook/
 22-Jul-2023 04:44:29.456 INFO [Handling POST /jenkins/github-webhook/ from 140.82.115.117 : http-nio-8080-exec-6] org.jenkinsci.plugins.github.webhook.subscriber.DefaultPushGHEventSubscriber$1.run Poked webhook
 22-Jul-2023 04:44:29.678 INFO [GitHubPushTrigger [#1]] com.cloudbees.jenkins.GitHubPushTrigger$1.run SCM changes detected in webhook. Triggering #2
+22-Jul-2023 04:51:40.940 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.PluginManager.install Starting installation of a batch of 1 plugins plus their dependencies
+22-Jul-2023 04:51:40.946 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-core-js for plugin blueocean
+22-Jul-2023 04:51:40.953 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of jenkins-design-language for plugin blueocean-core-js
+22-Jul-2023 04:51:40.979 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-github-pipeline for plugin blueocean
+22-Jul-2023 04:51:40.982 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-pipeline-api-impl for plugin blueocean-github-pipeline
+22-Jul-2023 04:51:40.983 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-pipeline-scm-api for plugin blueocean-pipeline-api-impl
+22-Jul-2023 04:51:40.984 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-rest for plugin blueocean-pipeline-scm-api
+22-Jul-2023 04:51:40.984 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-commons for plugin blueocean-rest
+22-Jul-2023 04:51:40.984 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of pubsub-light for plugin blueocean-pipeline-scm-api
+22-Jul-2023 04:51:40.986 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of htmlpublisher for plugin blueocean-pipeline-api-impl
+22-Jul-2023 04:51:40.987 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-rest-impl for plugin blueocean-pipeline-api-impl
+22-Jul-2023 04:51:40.987 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-web for plugin blueocean-rest-impl
+22-Jul-2023 04:51:40.987 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-jwt for plugin blueocean-rest-impl
+22-Jul-2023 04:51:40.987 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of favorite for plugin blueocean-rest-impl
+22-Jul-2023 04:51:40.988 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-git-pipeline for plugin blueocean
+22-Jul-2023 04:51:40.990 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-config for plugin blueocean
+22-Jul-2023 04:51:40.990 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-bitbucket-pipeline for plugin blueocean
+22-Jul-2023 04:51:40.994 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of cloudbees-bitbucket-branch-source for plugin blueocean-bitbucket-pipeline
+22-Jul-2023 04:51:40.995 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of authentication-tokens for plugin cloudbees-bitbucket-branch-source
+22-Jul-2023 04:51:40.995 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of handy-uri-templates-2-api for plugin cloudbees-bitbucket-branch-source
+22-Jul-2023 04:51:40.996 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-personalization for plugin blueocean
+22-Jul-2023 04:51:41.002 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-dashboard for plugin blueocean-personalization
+22-Jul-2023 04:51:41.011 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-display-url for plugin blueocean
+22-Jul-2023 04:51:41.011 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-events for plugin blueocean
+22-Jul-2023 04:51:41.015 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of sse-gateway for plugin blueocean-events
+22-Jul-2023 04:51:41.015 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-pipeline-editor for plugin blueocean
+22-Jul-2023 04:51:41.016 INFO [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.model.UpdateSite$Plugin.deploy Adding dependent install of blueocean-i18n for plugin blueocean
+22-Jul-2023 04:51:41.142 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of jenkins-design-language on behalf of admin
+22-Jul-2023 04:51:41.144 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading jenkins-design-language
+22-Jul-2023 04:51:41.956 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: jenkins-design-language
+22-Jul-2023 04:51:41.957 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-core-js on behalf of admin
+22-Jul-2023 04:51:41.957 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-core-js
+22-Jul-2023 04:51:42.247 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-core-js
+22-Jul-2023 04:51:42.247 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-commons on behalf of admin
+22-Jul-2023 04:51:42.247 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-commons
+22-Jul-2023 04:51:42.364 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-commons
+22-Jul-2023 04:51:42.364 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-rest on behalf of admin
+22-Jul-2023 04:51:42.364 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-rest
+22-Jul-2023 04:51:43.076 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-rest
+22-Jul-2023 04:51:43.082 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of pubsub-light on behalf of admin
+22-Jul-2023 04:51:43.082 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading pubsub-light
+22-Jul-2023 04:51:43.276 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: pubsub-light
+22-Jul-2023 04:51:43.276 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-pipeline-scm-api on behalf of admin
+22-Jul-2023 04:51:43.276 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-pipeline-scm-api
+22-Jul-2023 04:51:43.536 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-pipeline-scm-api
+22-Jul-2023 04:51:43.538 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of htmlpublisher on behalf of admin
+22-Jul-2023 04:51:43.539 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading htmlpublisher
+22-Jul-2023 04:51:43.753 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: htmlpublisher
+22-Jul-2023 04:51:43.754 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-web on behalf of admin
+22-Jul-2023 04:51:43.754 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-web
+22-Jul-2023 04:51:44.353 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-web
+22-Jul-2023 04:51:44.353 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-jwt on behalf of admin
+22-Jul-2023 04:51:44.353 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-jwt
+22-Jul-2023 04:51:44.505 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-jwt
+22-Jul-2023 04:51:44.512 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of favorite on behalf of admin
+22-Jul-2023 04:51:44.512 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading favorite
+22-Jul-2023 04:51:44.603 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: favorite
+22-Jul-2023 04:51:44.603 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-rest-impl on behalf of admin
+22-Jul-2023 04:51:44.603 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-rest-impl
+22-Jul-2023 04:51:44.995 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-rest-impl
+22-Jul-2023 04:51:44.996 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-pipeline-api-impl on behalf of admin
+22-Jul-2023 04:51:44.997 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-pipeline-api-impl
+22-Jul-2023 04:51:45.117 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-pipeline-api-impl
+22-Jul-2023 04:51:45.117 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-github-pipeline on behalf of admin
+22-Jul-2023 04:51:45.118 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-github-pipeline
+22-Jul-2023 04:51:45.237 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-github-pipeline
+22-Jul-2023 04:51:45.237 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-git-pipeline on behalf of admin
+22-Jul-2023 04:51:45.242 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-git-pipeline
+22-Jul-2023 04:51:45.654 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-git-pipeline
+22-Jul-2023 04:51:45.654 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-config on behalf of admin
+22-Jul-2023 04:51:45.654 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-config
+22-Jul-2023 04:51:45.833 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-config
+22-Jul-2023 04:51:45.833 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of authentication-tokens on behalf of admin
+22-Jul-2023 04:51:45.834 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading authentication-tokens
+22-Jul-2023 04:51:45.920 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: authentication-tokens
+22-Jul-2023 04:51:45.921 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of handy-uri-templates-2-api on behalf of admin
+22-Jul-2023 04:51:45.924 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading handy-uri-templates-2-api
+22-Jul-2023 04:51:46.063 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: handy-uri-templates-2-api
+22-Jul-2023 04:51:46.064 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of cloudbees-bitbucket-branch-source on behalf of admin
+22-Jul-2023 04:51:46.065 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading cloudbees-bitbucket-branch-source
+22-Jul-2023 04:51:46.209 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: cloudbees-bitbucket-branch-source
+22-Jul-2023 04:51:46.212 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-bitbucket-pipeline on behalf of admin
+22-Jul-2023 04:51:46.212 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-bitbucket-pipeline
+22-Jul-2023 04:51:46.684 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-bitbucket-pipeline
+22-Jul-2023 04:51:46.690 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-dashboard on behalf of admin
+22-Jul-2023 04:51:46.691 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-dashboard
+22-Jul-2023 04:51:46.982 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-dashboard
+22-Jul-2023 04:51:46.982 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-personalization on behalf of admin
+22-Jul-2023 04:51:46.982 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-personalization
+22-Jul-2023 04:51:47.475 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-personalization
+22-Jul-2023 04:51:47.475 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-display-url on behalf of admin
+22-Jul-2023 04:51:47.475 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-display-url
+22-Jul-2023 04:51:47.631 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-display-url
+22-Jul-2023 04:51:47.631 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of sse-gateway on behalf of admin
+22-Jul-2023 04:51:47.636 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading sse-gateway
+22-Jul-2023 04:51:47.735 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: sse-gateway
+22-Jul-2023 04:51:47.735 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-events on behalf of admin
+22-Jul-2023 04:51:47.736 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-events
+22-Jul-2023 04:51:47.823 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-events
+22-Jul-2023 04:51:47.823 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-pipeline-editor on behalf of admin
+22-Jul-2023 04:51:47.824 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-pipeline-editor
+22-Jul-2023 04:51:47.950 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-pipeline-editor
+22-Jul-2023 04:51:47.950 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean-i18n on behalf of admin
+22-Jul-2023 04:51:47.951 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean-i18n
+22-Jul-2023 04:51:48.067 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean-i18n
+22-Jul-2023 04:51:48.067 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Starting the installation of blueocean on behalf of admin
+22-Jul-2023 04:51:48.067 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$UpdateCenterConfiguration.download Downloading blueocean
+22-Jul-2023 04:51:48.128 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$DownloadJob.run Installation successful: blueocean
+22-Jul-2023 04:51:48.128 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$CompleteBatchJob.run Completing installing of plugin batch…
+22-Jul-2023 04:51:49.824 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained Started initialization
+22-Jul-2023 04:51:49.825 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+22-Jul-2023 04:51:49.825 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+22-Jul-2023 04:51:49.825 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained Started all plugins
+22-Jul-2023 04:51:49.827 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+22-Jul-2023 04:51:49.828 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained System config loaded
+22-Jul-2023 04:51:49.828 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained System config adapted
+22-Jul-2023 04:51:49.829 INFO [pool-23-thread-1] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+22-Jul-2023 04:51:49.837 INFO [pool-23-thread-2] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+22-Jul-2023 04:51:49.838 INFO [pool-23-thread-2] jenkins.InitReactorRunner$1.onAttained Completed initialization
+22-Jul-2023 04:51:49.838 INFO [Update center installer thread [#1]] hudson.model.UpdateCenter$CompleteBatchJob.run Completed installation of 27 plugins in 8.8 sec
+22-Jul-2023 05:10:12.765 INFO [TCP agent connection handler #2 with /54.196.93.169:46438] hudson.TcpSlaveAgentListener$ConnectionHandler.run Connection #2 from /54.196.93.169:46438 failed: null
+22-Jul-2023 05:10:12.968 INFO [TCP agent connection handler #3 with /54.196.93.169:46448] hudson.TcpSlaveAgentListener$ConnectionHandler.run Accepted JNLP4-connect connection #3 from /54.196.93.169:46448
+22-Jul-2023 05:10:29.462 WARNING [Handling POST /jenkins/manage/pluginManager/install from 49.36.65.179 : http-nio-8080-exec-7] hudson.node_monitors.AbstractDiskSpaceMonitor.markNodeOfflineIfDiskspaceIsTooLow Making 172.31.14.189 offline temporarily due to the lack of disk space
+22-Jul-2023 05:15:30.302 INFO [IOHub#1: Worker[channel:java.nio.channels.SocketChannel[connected local=/172.31.38.230:33553 remote=54.196.93.169/54.196.93.169:46448]] / Computer.threadPoolForRemoting [#11]] jenkins.slaves.DefaultJnlpSlaveReceiver.channelClosed IOHub#1: Worker[channel:java.nio.channels.SocketChannel[connected local=/172.31.38.230:33553 remote=54.196.93.169/54.196.93.169:46448]] / Computer.threadPoolForRemoting [#11] for 172.31.14.189 terminated: java.nio.channels.ClosedChannelException

@@ -28,3 +28,15 @@ Cron Job
  - POLL SCM
  - Webhook
 
+Plugin
+
+Jenkin Expand
+ - JNLP Connection -> TCP Connection
+ - SSH Connection
+
+SCP command
+ - GET and PUT
+ - scp -i "pemfile" filename ec2-user@privateip:/pathoffile path-destination-master
+ - scp -i "pemfile" pathoffile-master-filename ec2-user@privateip:/path-destination-slave
+
+
