@@ -17,4 +17,14 @@ MultiBranch Job
 Simple Job -> last build kept, discard old build, custom workspace, create directory
 create user and give some permission only -> .jenkins/user/username
 signup option visible on login jenkin page
+Install httpd, apache and Deploy the site on server using Jenkin Job.
+
+Configure the Maven by setting the Environment variable.
+
+Sequential and Parallel Execution.
+
+Cron Job
+ - Build Periodically - * * * * *
+ - POLL SCM
+ - Webhook
 
