@@ -31,12 +31,101 @@ Cron Job
 Plugin
 
 Jenkin Expand
- - JNLP Connection -> TCP Connection
- - SSH Connection
+ - JNLP Connection -> TCP Connection -> set port and run the node given command 
+ - SSH Connection  -> set credential, create node.
 
 SCP command
  - GET and PUT
  - scp -i "pemfile" filename ec2-user@privateip:/pathoffile path-destination-master
  - scp -i "pemfile" pathoffile-master-filename ec2-user@privateip:/path-destination-slave
+
+Email Notification
+
+Pipeline
+ - Freestyle
+ - Pipeline
+   - SCM
+ - MultiBranch = no. of Jobs equals to no of Branches(including JenkinsFile)  in Git repo
+
+** Simple Pipeline Example
+
+pipeline{
+//  agent any                           // Run on any m/c
+    agent {
+        node{
+            label 'qa'
+            // customWorkspace '/data/pipeline'      //Custom  Workspace
+        }
+    }
+    stages{
+        stage ('first'){
+            steps{
+                echo "Basic Script"
+            }
+        }
+        stage ('second') {             //Multiple Stage
+            steps{
+                echo "Multiple Stage"
+                echo "Multiple Steps are not allowed"
+            }
+        }
+        stage ('Install Software'){   // Sequential Execution   
+            steps {
+                sh "sudo yum install tree -y"
+            }
+        }
+        stage ('Parallel Execution'){   // Parallel Execution
+            parallel{
+                stage ('stage-1'){
+                    steps{
+                        echo "first parallel line"
+                    }
+                }
+                stage ('stage-2'){
+                    steps{
+                        echo "second parallel line"
+                    }
+                }
+            }
+        }
+        stage ('Trigger Practise2'){                 // Trigger other JOb
+            steps{
+                echo "Trigger Job2 when these stage will be run"
+                build 'Practise2'
+            }
+        }
+        stage ('Multiple workspace'){
+            steps{
+                dir('/data/wsp2'){
+                    echo "Multiple workspace defined"
+                    // touch "file1"
+                }
+            }
+        }
+        stage('multiple node1'){
+            agent{
+                label{
+                    label '172.31.25.85'  //private ip node2
+                }
+            }
+            steps{
+                sh "sudo yum install git -y"
+            }
+        }
+        stage('multiple node2'){
+            agent{
+                label{
+                    lable '172.31.43.25'  //private ip node2
+                }
+            }
+            steps{
+                sh "sudo yum install git -y"
+            }
+        }
+        
+    }
+}
+
+
 
 
